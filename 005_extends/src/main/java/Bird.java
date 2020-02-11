@@ -1,15 +1,12 @@
 public class Bird extends Animal {
-    private double flySpeed;
+    public double flySpeed;
 
     public Bird() {
     }
 
-    public Bird(double flySpeed) {
-        this.flySpeed = flySpeed;
-    }
-
-    public Bird(int age, double weight) {
+    public Bird(int age, double weight, double flySpeed) {
         super(age, weight);
+        this.flySpeed = flySpeed;
     }
 
     public void fly() {

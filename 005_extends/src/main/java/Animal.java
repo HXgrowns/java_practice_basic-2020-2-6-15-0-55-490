@@ -1,6 +1,6 @@
 public class Animal {
-    private int age;
-    private double weight;
+    public int age;
+    public double weight;
 
     public Animal() {
     }
