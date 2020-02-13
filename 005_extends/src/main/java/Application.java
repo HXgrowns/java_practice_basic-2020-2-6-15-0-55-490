@@ -8,7 +8,7 @@ public class Application {
      */
     public static void main(String[] args) {
         Eagle eagle = new Eagle(4, 5, 10, "rabbit");
-        System.out.print(eagle);
+        System.out.format("一只%d岁的老鹰，体重%.2fKg，这只老鹰生活在兔子窝所以它只捕食兔子。", eagle.age, eagle.weight);
         eagle.fly();
         eagle.predated();
         eagle.eatFood();
